@@ -46,6 +46,14 @@
 			.nav-inner li:nth-child(1) {
 			    padding-left:0;
 			}
+			.nav-inner a {
+			    text-decoration:none;
+			    color:#3285ab;
+			    font-weight:bold;
+			}
+			.nav-inner a:hover {
+			    text-decoration:underline;
+			}
 			.content-page {
 			    clear:both;
 			    margin:0 0 0 13%;
@@ -55,6 +63,9 @@
 				background: rgba(235,235,235,0.5);
 				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#AAEBEBEB, endColorstr=#AAEBEBEB);
 				min-height:60%;
+			}
+			.content-page:nth-child(n+1) {
+                margin-top:2em;
 			}
 			span.reference{
 				font-family:Arial;
@@ -122,9 +133,9 @@
 		<nav role="navigation">
 		    <ul class="nav-inner">
 		        <li><a href="#">Inicio</a></li>
-		        <li>Servicios</li>
-		        <li>Albums</li>
-		        <li>Contacto</li>
+		        <li><a href="#">Servicios</a></li>
+		        <li><a href="#">Albums</a></li>
+		        <li><a href="#">Contacto</a></li>
 		    </ul>
 		</nav>
 		<div id="main" role="main" class="content-page">
@@ -150,6 +161,12 @@
 		        </div>	
 		    </div>
 		    <!--<iframe src="form.html" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0" style="overflow:hidden;">Loading...</iframe>-->
+		</div>
+		<div class="content-page">
+		    <h2>Servicios</h2>
+		    <p>Fotografía social</p>
+		    <p>Eventos, Fiestas, Casamientos, Cumpleaños.</p>
+		    <p>Producciones</p>
 		</div>
 		<div id="pp_gallery" class="pp_gallery">
 			

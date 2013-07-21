@@ -6,8 +6,6 @@ body{
 	background:#000 url(../bg.jpg) repeat center center;
 	font-family:"Myriad Pro", "Trebuchet MS", Helvetica, sans-serif;
 	font-size:12px;
-	color: #fff;
-	overflow:hidden;
 }
 .pp_loading{
 	display:none;
