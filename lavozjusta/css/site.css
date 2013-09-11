@@ -1,0 +1,454 @@
+html {
+	font-family: "Open Sans","Alegreya SC";
+	background: #F3F3F3;
+	background: #F0F0F0;
+	background: #111;
+	background: #1A1B1C;
+}
+.header {
+	background: #008FBE;
+	background: #FAFAFA;
+	background: #1A1A1A;
+	background: #1A1B1C;
+	border-bottom: 1px solid #777;
+	border-bottom: 2px solid #007FA9;
+	color:#333;
+	color:#FAFAFA;
+	color:#FFF;
+}
+.header h1 {
+	vertical-align: middle;
+	/*background: url('../images/logo.png') no-repeat top left;
+	padding-left: 42px;
+	padding-top: 5px;*/
+	padding: 0.5em 0.3em;
+	font-size: 1.75em;
+	margin:0;
+	font-family: "Alegreya SC";
+	display:inline-block;
+	width: 40%;
+
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+.header a {
+	color:white;
+    text-decoration:none;
+}
+.nav {
+	display: inline-block;
+	vertical-align: middle;
+	/*font-family: "Alegreya SC";*/
+	font-size: 1em;
+	width: 59%;
+	text-align: right;
+}
+.nav a {
+	color:#007FA9;
+	color:#008FBE;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 .5em;
+	font-size: 15px;
+	font-weight: bold;
+}
+.nav a:hover {
+	color:white;
+}
+.nav .selected {
+	color:white;
+	border-bottom: 1px solid white;
+	padding: 0;
+	margin: 0 .5em;
+}
+.subnav {
+	background: white;
+	background:#008FBE;
+	padding-bottom: 0.8em;
+	border-bottom: 2px solid white;
+	position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+.subnav.hidden {
+	display: none;
+}
+.subnav ul{
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	text-align: right;
+}
+.subnav li {
+	display: inline-block;
+	width: 35%;
+	text-align: left;
+}
+.subnav a {
+	color:#008FBE;
+	color:white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1em 0 .1em;
+	margin: .5em 0 1em;
+	font-size: 15px;
+	font-weight: bold;
+	border-bottom: 1px dotted white;
+}
+.subnav a:hover {
+	color:black;
+	border-bottom: 1px dotted black;
+}
+.footer {
+	background: #222;
+	background: #007FA9;
+	color: #F3F3F3;
+}
+.section {
+	width:100%;
+}
+.section-content {
+	max-width: 1024px;
+	text-align: left;
+}
+#Intro {
+	/*background: url('../images/slider-bg.png') repeat;*/
+	background: #008FBE;
+	text-align: center;
+	padding: 1em 0;
+	border-bottom: 2px solid #111;
+
+	color: #F3F3F3;
+	background: url('../images/radio_studio.jpg') repeat top left;
+	background: url('../images/mixing_console.jpg') repeat top left;
+	background: url('../images/old_microphone.jpg') repeat center center;
+	-webkit-animation: bg-rotator 120s infinite; /* Safari 4+ */
+    -moz-animation:    bg-rotator 120s infinite; /* Fx 5+ */
+    animation:         bg-rotator 120s infinite;
+}
+#Intro.bg1 {
+	background: url('../images/radio_studio.jpg') repeat center center;
+}
+#Intro.bg2 {
+	background: url('../images/mixing_console.jpg') repeat center center;
+}
+#Intro.bg3 {
+	background: url('../images/old_microphone.jpg') repeat center center;
+}
+
+
+@-moz-keyframes bg-rotator {
+ 0% {
+   background-position: top left;
+ }
+ 10% {
+   background-position: center center;
+ }
+ 20% {
+   background-position: right bottom;
+ }
+ 30% {
+   background-position: center center;
+ }
+ 40% {
+   background-position: right top;
+ }
+ 50% {
+   background-position: center center;
+ }
+ 60% {
+   background-position: left bottom;
+ }
+ 70% {
+   background-position: center center;
+ }
+ 100% {
+   background-position: left top;
+ }
+
+}
+
+@-webkit-keyframes "bg-rotator" {
+ 0% {
+   background-position: top left;
+ }
+ 10% {
+   background-position: center center;
+ }
+ 20% {
+   background-position: right bottom;
+ }
+ 30% {
+   background-position: center center;
+ }
+ 40% {
+   background-position: right top;
+ }
+ 50% {
+   background-position: center center;
+ }
+ 60% {
+   background-position: left bottom;
+ }
+ 70% {
+   background-position: center center;
+ }
+ 100% {
+   background-position: left top;
+ }
+
+}
+
+
+@keyframes "bg-rotator" {
+ 0% {
+    background-position: top left;
+ }
+ 10% {
+    background-position: center center;
+ }
+ 20% {
+    background-position: right bottom;
+ }
+ 30% {
+    background-position: center center;
+ }
+ 40% {
+    background-position: right top;
+ }
+ 50% {
+    background-position: center center;
+ }
+ 60% {
+    background-position: left bottom;
+ }
+ 70% {
+    background-position: center center;
+ }
+ 100% {
+    background-position: left top;
+ }
+
+}
+#Intro ul {
+	list-style-type:none;
+}
+#Intro h2 {
+	margin:0;
+}
+.youtube-front {
+    display: inline-block;
+}
+.lista-destacados {
+	display: inline-block;
+	vertical-align: top;
+	min-width: 330px;
+    width:330px;
+	background: #B6B6B6;
+	background: rgba(182, 182, 182, 0.75);
+	color:#FFF;
+
+	height: 100%;
+
+	border-radius: 3px;
+
+}
+.lista-destacados ul {
+	margin:0;
+	padding: 0;
+}
+
+.lista-destacados li {
+	border-bottom: #444 solid 1px;
+	padding: 0.4em 0.5em;
+}
+.lista-destacados .e-title {
+	font-size: 1.3em;
+	display: inline-block;
+	width: 85%;
+}
+
+.lista-destacados .e-publish {
+	font-size: 0.7em;
+}
+.lista-destacados i {
+	font-size: 1.7em;
+	vertical-align: middle;
+	margin-right: 2%;
+	color:#444;
+	display: inline-block;
+	float: left;
+	width: 10%;
+	height: 1.9em;
+	padding-top: .1em;
+}
+.lista-destacados li:hover {
+	color:black;
+    cursor: pointer;
+}
+.lista-destacados li:hover i {
+	color:#D30000;
+}
+.fix-wrapper {
+	margin: auto;
+	max-width: 1024px;
+}
+.fix-wrapper .content {
+	background: white;
+}
+.content {
+	padding: 1em;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.home-fotos {
+	border-bottom: 1px dashed #444;
+}
+.contenido-complementario {
+	background: white;
+}
+.ads-container {
+	border-left: 2em solid #1A1B1C;
+}
+.lista-ads {
+	list-style-type:none;
+	margin:0;
+	padding: 0;
+}
+.ads {
+	width: 100%;
+}
+.lista-novedades, .lista-ultimos-episodios, .social-links {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.listado-episodios {
+	list-style-type: none;
+}
+.listado-episodios a {
+	color:#008FBE;
+}
+.lista-novedades li {
+	padding: 0.3em 0;
+	margin: 0.3em 0;
+	border-bottom: 1px dotted #444;
+}
+.lista-ultimos-episodios li, .listado-episodios li {
+	margin: 0.3em 0;
+}
+.lista-novedades i, .lista-ultimos-episodios i, .listado-episodios i {
+	color:#007FA9;
+	display: inline-block;
+	margin-right: .3em;
+	font-size: 1.1em;
+}
+.lista-ultimos-episodios .e-publish {
+	font-size: 0.8em;
+}
+.social-links {
+	text-align: right;
+	padding-top: 1em;
+
+}
+.social-links li {
+	display: inline-block;
+}
+.social-links a {
+	display: inline-block;
+	margin: 0 .2em;
+	background: black;
+	border-radius: 50px;
+	color: white;
+	text-decoration: none;
+	font-size: 1.4em;
+	padding: .5em;
+	width: 31px;
+	text-align: center;
+}
+.social-links .twitter {
+	background: white;
+	color:#007FA9;
+}
+.social-links .facebook {
+	background: #3C5A80;
+}
+.social-links .google-plus {
+	background: #A3291C;
+}
+.social-links .youtube {
+	background: white;
+	color: #A3291C;
+}
+.legal {
+	padding: .5em 0;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+/*Pagina Programas*/
+.programa-encabezado {
+	background: url('../images/programa-x.jpg') repeat center center;
+}
+.programa-encabezado .fix-wrapper {
+	position: relative;
+	min-height: 400px;
+	padding: 1em 0;
+}
+.programa-titulo {
+	background: #B6B6B6;
+	background: rgba(182, 182, 182, 0.75);
+	margin: 0;
+	padding: .5em 1em .5em;
+	display: inline-block;
+	position: relative;
+}
+.programa-titulo:before, .programa-titulo:after {
+	content: "";
+	position: absolute;
+	background: #B6B6B6;
+	background: rgba(182, 182, 182, 0.75);
+	top: 0;
+	bottom: 0;
+	width: 200px;   /* some huge width */
+} 
+.programa-titulo:before {
+	right: 100%; 
+}
+.programa-titulo:after {
+	left: 100%;
+}
+.programa-personas {
+	margin:0;
+	padding:1em;
+
+	bottom: 0;
+	right: 0;
+	position: absolute;
+
+	list-style-type: none;
+
+
+	background: #B6B6B6;
+	background: rgba(182, 182, 182, 0.75);
+
+}
+.programa-puesto {
+	padding-right: 10px;
+	display: inline-block;
+	text-align: right;
+	min-width: 6em;
+}
+.programa-persona {
+	font-weight: bold;
+
+}
+.flex-direction-nav {
+    display: none;
+}
+.modern-browser .flex-direction-nav {
+    display: inherit;
+}
