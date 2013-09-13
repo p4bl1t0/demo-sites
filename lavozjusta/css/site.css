@@ -452,3 +452,16 @@ html {
 .modern-browser .flex-direction-nav {
     display: inherit;
 }
+.pure-u-1-3 {
+	width: 33%;
+}
+.servicio {
+	text-align: center;
+
+}
+.servicio i {
+	font-size: 128px;
+	display: block;
+	margin:auto;
+	color:#004C76;
+}
