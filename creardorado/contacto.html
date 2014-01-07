@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 & !IEMobile]>
+<html class="ie" lang="es">
+<![endif]-->
+<!--[if gt IE 8 | IEMobile]><!-->
+<html lang="es" class="modern-browser">
+<!--<![endif]-->
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="keywords" content="" />
+		<meta name=”description” content="">
+		<title>Creardorado | Saca-yerba un invento argentino</title>
+		<link rel="shortcut icon" href="images/favicon.png" type="image/png">
+		<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+		<!--<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>-->
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/pure-min.css" />
+		<link rel="stylesheet" href="css/site.css" />
+		<link rel="stylesheet" href="css/animate.css" />
+	</head>
+	<body class="page-product">
+        <div id="header">
+            <div class="pure-g-r fix-wrapper">
+                <div class="pure-u-1-4 header-section">
+                    <h1><img src="images/logo-transparente-slogan.png" alt="Crear Dorado"></h1>
+                </div>
+                <div class="pure-u-3-4 header-section">
+                    <ul id="nav">
+                        <li class="nav-item"><a href="#">Saca-yerba</a></li>
+                        <li class="nav-item"><a href="#">Productos</a></li>
+                        <li class="nav-item"><a href="#">Novedades</a></li>
+                        <li class="nav-item"><a href="#">Donde comprar</a></li>
+                        <li class="nav-item"><a href="#">Quiénes somos</a></li>
+                        <li class="nav-item"><a href="#">Contacto</a></li>
+                    </ul>  
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="main-content">
+                <div class="pure-g-r content-ribbon fix-wrapper">
+                    <div class="pure-u-2-3">
+                        <div class="box">
+                            <form class="pure-form pure-form-stacked">
+                                <fieldset>
+                                    <legend>Contáctenos</legend>
+                            
+                                    <label for="nombre">Nombre</label>
+                                    <input id="nombre" type="text" placeholder="Nombre" class="data-entry" />
+                            
+                                    <label for="email">Email</label>
+                                    <input id="email" type="email" placeholder="Email"  class="data-entry"/>
+                            
+                                    <label for="mensaje">Mensaje</label>
+                                    <textarea id="mensaje" placeholder="Escriba aquí su mensaje" class="data-entry"></textarea>
+                                                        
+                                    <button type="submit" class="pure-button pure-button-primary">Enviar consulta</button>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="pure-u-1-4">
+                        <div class="box">
+                            <p>Teléfonos 
+                                <div>+54 - 341 - 4123456</div>
+                                <div>+54 - 341 - 4987654</div>
+                            </p>
+                            <p>Email 
+                                <div>info@creardorado.com</div>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="footer">
+                <p>Creardorado © 2014. Todos los derechos reservados.</p>
+            </div>
+        </div>
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script>
+            var _animar = $('.animated');
+            $(document).ready(function() {
+                $(window).scroll(function() {
+                    determinarAnimacion();
+                });
+                determinarAnimacion();
+                
+            });
+            function determinarAnimacion () {
+                _animar.each(function(){
+                    var imagePos = $(this).offset().top;
+                    var topOfWindow = $(window).scrollTop();
+                    if (imagePos < topOfWindow+400) {
+                        $(this).addClass($(this).attr("data-animated"));
+                    }
+                });
+            }
+        </script>
+    </body>		
+</html>

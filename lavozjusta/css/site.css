@@ -457,11 +457,37 @@ html {
 }
 .servicio {
 	text-align: center;
+	font-weight: bold;
+	color:#004C76;
+	text-shadow: 1px 1px #666;
 
 }
 .servicio i {
 	font-size: 128px;
 	display: block;
 	margin:auto;
+	text-shadow: 2px 2px #333;
+}
+.header-title {
+	text-align: center;
+	font-size: 1.8em;
+	margin: 0.4em 0;
+}
+.servicios-ofrecidos-container {
+	border-radius: 0 0 25px 25px;
+	margin-bottom: 1.5em;
+}
+
+.servicios-ofrecidos-container .header-title {
 	color:#004C76;
+	text-shadow: 1px 1px #666;
+
+}
+.quienes-somos-container {
+	border-radius: 25px 25px 0 0;
+}
+.quienes-somos-container .sub-titulo {
+	font-size: 1em;
+    margin: 1.33em 0;
+    font-weight: bold;
 }
