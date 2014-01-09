@@ -204,6 +204,15 @@ menu, ol, ul {
     border-bottom: 2px solid #DDD;
     display: inline-block;
 }
+.content-head {
+    color: #000;
+    padding-bottom: 0.3em;
+    margin: 0;
+    border-bottom: 2px solid #DDD;
+    display: inline-block;
+    font-family: Questrial;
+    font-size: 3em;
+}
 .page-product .content .content-subhead {
     font-size: 1.2em;
     letter-spacing: 1px;
@@ -216,6 +225,9 @@ menu, ol, ul {
 /*.gold-version .content .content-subhead {
     color: white;
 }*/
+.page-creardorado .main-content p {
+    font-size: 1.1em;
+}
 .content .content-ribbon {
     margin: 3em;
     border-bottom: 1px solid #DDD;
