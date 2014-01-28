@@ -343,3 +343,17 @@ textarea {
     resize: vertical;
     min-height: 3em;
 }
+.slider {
+    background: #111;
+    background-image: linear-gradient(to bottom, #050505, #111);
+    padding: 1em 0;
+}
+.slider .slider-inner {
+    
+}
+.slider  img {
+    max-width: 82px;
+}
+.owl-item.loading {
+    min-height: 110px!important;
+}
